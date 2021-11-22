@@ -1,5 +1,5 @@
 {
-    "name": "Amazone Alexa V8",
+    "name": "⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁",
     "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
     "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
@@ -29,7 +29,7 @@
         "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "👩‍🦰©Amazone Alexa"
+            "value": "*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*"
         },
         "FULL_ALEXA": {
             "description": "Activate alexa chat bot",
@@ -87,7 +87,7 @@
         "CAPTIONS": {
             "description": "Set your caption under medias.",
             "required": true,
-            "value": "Made By 👩‍🦰Amazone Alexa"
+            "value": "*ᴍᴀᴅᴇ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*"
         },
         "MUTE_MESSAGE": {
             "description": "Message received when mute a group. If you do not want to change this message, type default.",
