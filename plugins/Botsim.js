@@ -35,9 +35,9 @@ const heroku = new Heroku({
     token: Config.HEROKU.API_KEY
 });
 
-const cmsg = `*👩‍🦰 : හායි ඔයාලට කොහොමද?,*
-          *මම Alexa Bot*`
-const alexa = `👩‍🦰 : Alexa Bot යනු ලංකාවේ වැඩිම Features ඇතුලත් කර ඇති හොදම Bot වේ.`
+const cmsg = `*🧝‍♀️ : Hi How are you,*
+          *I'm Queen Alexa*`
+const alexa = `🧝‍♀️ : Alexa Bot යනු ලංකාවේ වැඩිම Features ඇතුලත් කර ඇති හොදම Bot වේ.`
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
@@ -54,7 +54,7 @@ if (Config.AI_BOT == 'true') {
 			try {
 				const response = await got(url);
 				const json = JSON.parse(response.body);
-			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*👩‍🦰 ' + Lang.BOT +'* ```' + json.messages[0].response + '```\n' , MessageType.text,{quoted: message.data});
+			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*🧝‍♀️ ' + Lang.BOT +'* ```' + json.messages[0].response + '```\n' , MessageType.text,{quoted: message.data});
 			} catch {
 				return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 			}
@@ -73,7 +73,7 @@ if (Config.AI_BOT == 'true') {
 			try {
 				const response = await got(url);
 				const json = JSON.parse(response.body);
-			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*👩‍🦰 ' + Lang.BOT +'* ```' + json.messages[0].response + '```\n' , MessageType.text,{quoted: message.data});
+			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n*🧝‍♀️ ' + Lang.BOT +'* ```' + json.messages[0].response + '```\n' , MessageType.text,{quoted: message.data});
 			} catch {
 				return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 			}
@@ -89,7 +89,7 @@ else if (Config.AI_BOT == 'false') {
 			try {
 				const response = await got(url);
 				const json = JSON.parse(response.body);
-			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n👩‍🦰 ' + Lang.BOT + Lang.NOT_AVAILABLE , MessageType.text);
+			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n🧝‍♀️ ' + Lang.BOT + Lang.NOT_AVAILABLE , MessageType.text);
 			} catch {
 				return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 			}
@@ -103,7 +103,7 @@ else if (Config.AI_BOT == 'false') {
 			try {
 				const response = await got(url);
 				const json = JSON.parse(response.body);
-			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n👩‍🦰 ' + Lang.BOT + Lang.NOT_AVAILABLE , MessageType.text,{quoted: message.data});
+			if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n🧝‍♀️ ' + Lang.BOT + Lang.NOT_AVAILABLE , MessageType.text,{quoted: message.data});
 			} catch {
 				return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 			}
