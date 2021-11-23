@@ -129,8 +129,8 @@ if (Config.WORKTYPE == 'public') {
             }]
 
             const button = {
-                buttonText: 'Click Me!',
-                description: "Queen Alexa මූලික විධාන ලැයිස්තු",
+                buttonText: 'Click Me',
+                description: "*◄━━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n  *QUEEN ALEXA COMMAND PANEL*\n*◄━━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*",
                 sections: sections,
                 listType: 1
             }
