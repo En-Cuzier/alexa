@@ -1,5 +1,5 @@
 build:
   docker:
-      worker: /Amazone/Dockerfile
+      worker: /QueenAlexa/Dockerfile
 run:
    worker: npm start
