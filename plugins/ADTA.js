@@ -15,32 +15,32 @@ const Lang = Language.getString('amazone');
   *────────*
 
 *╭─「  මොනවද මේ EHI 🤔」*
-│🛡️.ehelp
-╰──────►
+*│🛡️.ehelp*
+*╰──────►*
 *╭─「 කොහොමද  CONNECT කරන්නෙ😐」*
-│🛡️.connect 
-╰───────►
- *╭─「  INJECTOR APK🤩」*
-│🛡️.iapk
-╰──────►
+*│🛡️.connect*
+*╰───────►*
+*╭─「  INJECTOR APK🤩」*
+*│🛡️.iapk*
+*╰──────►*
 
 *╭─「  WHATSAPP ALL EHI」*
-│🔴 .WEHI
-╰──────►
+*│🔴 .WEHI*
+*╰──────►*
 *╭─「 YOUTUBE ALL EHI」*
-│⚪ .YEHI
-╰──────►
+*│⚪ .YEHI*
+*╰──────►*
 *╭─「  FACEBOOK ALL EHI」*
-│🔵 .FEHI
-╰──────►
+*│🔵 .FEHI*
+*╰──────►*
 *╭─「  ZOOM ALL EHI」*
-│⚫ .ZEHI
-╰──────►
+*│⚫ .ZEHI*
+*╰──────►*
 *╭─「  TWITTER  EHI」*
-│🔘 .TEHI
-╰──────►
+*│🔘 .TEHI*
+*╰──────►*
 
-©️ɴᴛʀᴏ-ᴛᴇᴇɴᴜ
+*ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*
 
 `}) 
 
