@@ -19,7 +19,7 @@
 
 <div align="center">
 
-  ![logo](https://telegra.ph/file/b373cf75c9fddb6721650.jpg)
+ ![logo](https://telegra.ph/file/b373cf75c9fddb6721650.jpg)
 
 
 
@@ -33,6 +33,7 @@
 <a href="https://github.com/En-Cuzier/alexa/network/members"><img title="Forks" src="https://img.shields.io/github/forks/En-Cuzier/alexa?color=pink&style=flat-square"></a>
 
 
+<div align="center">
   
 ## 💫 Deploy & Run Queen Alexa 💫
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@tenuh/Alexa?v=1)
