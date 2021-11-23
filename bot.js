@@ -320,7 +320,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : https://t.me/Amazone_Neotrox_Support\n*🧚‍♂QUEEN AMAZONE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n╭──────────────────⚬►\n│  *⦁◊═⦁QUEEN 🧝‍♀️ ALEXA⦁═◊⦁*\n│        ```Working as private```\n│──────────────────⚬►\n│ *🛡 මෙය ඔබගෙ Log අංකයයි.*\n│ *🛡 මෙහි විධාන භාවිතා*\n│ *කිරීමෙන් වලකින්න.*\n│ *🛡 වෙනත් ඕනෑම කතාබහක*\n│ *විධාන භාවිතා කරන්න.*\n│ *🛡 ඔබෙ Bot පෞද්ගලික*\n│ *ආකාරයට ක්‍රියාකරනු ලැබෙ.*\n│ *🛡 ඔබට එය වෙනස් කිරීමට*\n│ *අවශ්‍ය නම්* \n│ ```.setvarWORK_TYPE:public```\n│ *විධානය ලබාදෙන්න.*\n│\n│ *ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n╰───────────────────⚬► \n', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
