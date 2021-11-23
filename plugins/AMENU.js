@@ -41,22 +41,22 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  *│ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 2021*
  *╰───────────●►*
 
- ╭──────────●●►
-*│🛡️BOT COMMANDS*
- │   ───────
+ ╭────────────⚬─►
+ │ *🛡️BOT COMMANDS🛡*
+ │────────────⚬─►
  │
  │► .`+Config.PANEL_COMMAND+` [All command list]
- │► .alive [Check bot status]
- │► .bot [chat with bot]
- │► .Admin [ for owner ]
- │► .version [check Version 
- │►.update [check Update]
+ │► .alive  [Check bot status]
+ │► .bot    [chat with bot]
+ │► .Admin  [ for owner ]
+ │► .version[check Version 
+ │►.update  [check Update]
  │►.update now [get update ]
  │►.restart 
- ╰───────────●●►
+ ╰─────────────⚬─►
 
  ╭────────────⚬►
- │🧜‍♀STICKER COMMANDS
+ │ *STICKER COMMANDS*
  │────────────⚬►
  │► .attp [text ]
  │► .sticker
@@ -65,7 +65,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────⚬►
 
  ╭────────────⚬►
- │🧞‍♀️TEXT TO IMG
+ │ *TEXT TO IMG*
  │────────────⚬►
  │► .textimg 
  │► .prologo (unlimited logos)
@@ -83,7 +83,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────●●►
 
  ╭─────────────⚬►
- │ DOWNLOAD COMMANDS
+ │ *DOWNLOAD COMMANDS*
  │─────────────⚬►
  │► .video [ Yt Link]
  │►.mp4    [Name]
@@ -100,9 +100,9 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │►.mediafire
  ╰────────────●●►
 
- ╭────────────●●►
- │🔍SEARCH COMMANDS
- │     ──────────
+ ╭──────────────⚬►
+ │ *🔍SEARCH COMMANDS*
+ │──────────────⚬►
  │► .yt [ topic ]
  │► .wiki [text ]
  │► .movie [ movie name ]
@@ -110,32 +110,32 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │► .show [tv series ]
  │► .weather [ city ]
  │
- ╰────────────●●►
+ ╰─────────────⚬►
 
- ╭────────────●●►
- *│🛸GROUP COMMANDS*
- │  ─────────
+ ╭─────────────⚬►
+ │🛸GROUP COMMANDS
+ │─────────────⚬►
  │► .rename [change Group name]
- │► .rules    [check rules]
- │► .info [check details]
+ │► .rules  [check rules]
+ │► .info   [check details]
  │► .tagadmin 
  │►.antispm
  │►.clear
  │► .report
  │► .tagall  
- │► .ban [ for owner ]
- │► .add [ for owner ]
+ │► .ban     [ for owner ]
+ │► .add     [ for owner ]
  │► .promote [ for owner ]
- │► .demote [ for owner ]
- │► .invite [ for owner ]
- │► .leave [ for owner ]
+ │► .demote  [ for owner ]
+ │► .invite  [ for owner ]
+ │► .leave   [ for owner ]
  │►.welcome 
  │►.goodbye
- ╰───────────●●►
+ ╰────────────⚬►
 
- ╭───────────●●►
- *│🎨MEDIA TOOLS*
- │      ───────
+ ╭─────────────⚬►
+ │ *MEDIA TOOLS*
+ │─────────────⚬►
  │► .axmedia [25+ tools]
  │► .tblend
  │►.ocr [Read Text]
@@ -145,11 +145,11 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │► .spdf [convent site to pdf]
  │► .voicy
  │► .unvoice [mp3 to voice]
- ╰───────────●●►
+ ╰────────────⚬►
 
- ╭───────────●●►
- *│⚡MORE COMMAND*
- │  ────────
+ ╭────────────⚬►
+ │ *MORE COMMAND*
+ │────────────⚬►
  │►.scan
  │►.brdmore
  │►.rdmore
@@ -175,7 +175,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────●●►
 
  ╭───────────●●►
- *│⚙️BOT SETTINGS*
+ │ *BOT SETTINGS*
  │    ───────
  │► .pp [set profilr pic]
  │►.autobio on/off [change bio ]
@@ -194,12 +194,12 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ ▷CAPTION: <text> [change caption]
  │ ▷MENUINFO: <text> [change Menu info]
  │ ▷SUDO: <number> [add sudo]
- │    
- │    THANK FOR
- │     USING
- │ AMAZONE ALEXA ✉️
- │©️TEENU-X
- ╰───────────●●►
+ │  
+ ╰──────ᴘᴏᴡᴇʀᴇᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ
+
+    *◄━━━━━━⦁═▣❪🧝‍♀️❫▣═⦁━━━━━━►*
+        *◄●◈QUEEN ALEXA◈●►*
+    *◄━━━━━━━⦁═⦁❶⦁═⦁━━━━━━━━►*
  
 `}) 
 
