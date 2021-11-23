@@ -346,7 +346,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE Working As public!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE:private``` _command._\n\n*Thanks for using 🧚‍♂QUEEN AMAZONE💌*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '╭──────────────────●►\n│   *⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*\n│         ```working as public```\n│\n│ *🛡 This is your log number.*\n│ *🛡 Do not try any command in this*\n│ *chat.*\n │ *🛡 You can try any chat.*\n│ *🛡 Your bot working as public.*\n│ *🛡 If you want to change\n│private\n │mode,Try this command.*\n│\n│ ```.setvarWORK_TYPE:private```\n│\n│ *ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n╰──────────────────●►\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
