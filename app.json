@@ -1,7 +1,7 @@
 {
     "name": "⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁",
     "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
-    "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
+    "logo": "https://telegra.ph/file/b373cf75c9fddb6721650.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
     "repository": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
     "website":   "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
@@ -29,7 +29,7 @@
         "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*"
+            "value": "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*"
         },
         "FULL_ALEXA": {
             "description": "Activate alexa chat bot",
@@ -112,7 +112,7 @@
         "ALIVE_LOGO": {
             "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg"
+            "value": "https://telegra.ph/file/b373cf75c9fddb6721650.jpg"
         },
         "WELCOME_GIF": {
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
@@ -147,17 +147,17 @@
         "EMOJI_COMMAND": {
             "description": "You can change Command list emojis.)",
             "required": true,
-            "value": "👸"
+            "value": "❄"
         },
         "EMOJI_DESCRIPTION": {
             "description": "You can change command list emojis.)",
             "required": true,
-            "value": "💰"
+            "value": "🕊"
         },
         "EMOJI_WARNING": {
             "description": "You can change command list emojis.)",
             "required": true,
-            "value": "🚫"
+            "value": "⛔"
         },
         "DEBUG": {
             "description": "If you do not know this. Give it up.",
@@ -236,7 +236,7 @@
         "MENU_INFO": {
             "description": "write Some Words about yor Bot You can Edite this",
             "required": false,
-            "value": "🧜‍♀ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️ᴛᴇᴇɴᴜ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
+            "value": "🧝‍♀️ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴇɴ-ᴄᴜᴢɪᴇʀ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..❄ꜱᴏ ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
         }
     },
     "addons": [{
