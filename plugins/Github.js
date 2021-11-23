@@ -71,7 +71,7 @@ tenu.addCommand({ pattern: 'github ?(.*)', fromMe: true, desc: Glang.GİTHUB_DES
         `*${PHN_CREAT}* ${created_at}`
         
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg +'\n'+'*👩‍🦰Amazone Alexa*'
+          caption: msg +'\n\n'+'*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*'
         })
       })
       .catch(
@@ -127,7 +127,7 @@ tenu.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DE
         `*${PHN_CREAT}* ${created_at}`
         
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: msg +'\n'+'*👩‍🦰Amazone Alexa*'
+          caption: msg +'\n\n'+'*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*'
         })
       })
       .catch(
