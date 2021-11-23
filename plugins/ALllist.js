@@ -27,7 +27,7 @@ var ddd = ggg.toString('utf-8')
 let tk = Config.WORKTYPE == 'public' ? false: true
 
 Amazone.addCommand({
-    pattern: 'zzaa', fromMe: tk, desc: Lang.MENU, dontAddCommandList: true
+    pattern: 'list', fromMe: tk, desc: Lang.MENU, dontAddCommandList: true
 }, (async (message, match) => {
         // send a list message!
         const rows = [{
@@ -73,7 +73,7 @@ Amazone.addCommand({
 
         const button = {
             buttonText: 'Click Me',
-            description: "👩‍🦰Amazone Alexa මූලික විධාන ලැයිස්තු - Command panel",
+            description: "Queen Alexa මූලික විධාන ලැයිස්තු - Command panel",
             sections: sections,
             listType: 1
         }
@@ -85,7 +85,7 @@ Amazone.addCommand({
 if (Config.WORKTYPE == 'public') {
 
     Amazone.addCommand({
-        pattern: 'zzaa', fromMe: true, dontAddCommandList: true
+        pattern: 'list', fromMe: true, dontAddCommandList: true
     }, (async (message, match) => {
             // send a list message!
             const rows = [{
@@ -130,7 +130,7 @@ if (Config.WORKTYPE == 'public') {
 
             const button = {
                 buttonText: 'Click Me!',
-                description: "👩‍🦰Amazone Alexa මූලික විධාන ලැයිස්තු",
+                description: "Queen Alexa මූලික විධාන ලැයිස්තු",
                 sections: sections,
                 listType: 1
             }
