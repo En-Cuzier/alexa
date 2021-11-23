@@ -79,7 +79,7 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Amazone Alexa",
+            "RESTART_DESC": "Restart Queen Alexa",
             "RESTART_MSG": "*Restarting 🧝‍♀️ Queen Alexa...*",
             "SHUTDOWN_DESC": "Shutdown 🧝‍♀️ Queen Alexa",
             "SHUTDOWN_MSG": "*Shutting down ⛔ Queen Alexa*",
