@@ -26,13 +26,13 @@ if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
 if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
 if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
-    var respoimage = await axios.get(`https://telegra.ph/file/875ad1013f95132c01a5f.jpg`, { responseType: 'arraybuffer' })
+    var respoimage = await axios.get(`https://telegra.ph/file/b5ddab7cbb97738acf940.jpg`, { responseType: 'arraybuffer' })
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `        
  *╭─❪ NOW TIME ❫*
  *├──────────⚬►*
  *│🧝‍♀️HEY,*  `+wish+` 
  *│⏰Time:* `+time+`
- *| ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 2021*
+  *| ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 2021*
  *╰──────────⚬►*
 `}) 
 
