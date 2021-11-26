@@ -10,7 +10,9 @@ const {MessageType} = require('@adiwajshing/baileys');
 const fs = require("fs")
 const Language = require('../language');
 const Lang = Language.getString('_amazone');
+//const EX = require('../files/file');
 
+const lusifarv = fs.readFileSync('../alexa/Alexa/queen1.mp3') 
 if (Config.WORKTYPE == 'private') {
 
     amazone.addCommand({pattern: `${Config.PANEL_COMMAND} ?(.*)`, fromMe: true, dontAddCommandList: true}, (async (message, match) => {
@@ -60,7 +62,8 @@ if (Config.WORKTYPE == 'private') {
                     }
                 }
             );
-
+            
+            await message.client.sendMessage(message.jid, lusifarv, MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
             await message.client.sendMessage(message.jid, '◄◉◉◉◉◉◉◉◯◉◯◉◯◉◉◉◉◉◉◉◉►\n\n◁' + Config.BOT_NAME + '▷\n_Private Bot_\n\n' + Config.MENU_INFO + '\n\n◄◉◉◉◉◉◉◯◉◯◉◯◉◉◉◉◉◉◉◉►\nᴾᵒʷᵉʳᵉᵈ ᴮʸ ᴬᴹᴬᶻᴼᴺᴱ🛸ᴬᴸᴱˣᴬ\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}); 
        }
        else {
@@ -167,6 +170,7 @@ if (Config.WORKTYPE == 'public') {
                     }
                 }
             );
+            await message.client.sendMessage(message.jid, lusifarv, MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
             await message.client.sendMessage(message.jid, Config.BOT_NAME + '\n\n  \n' + CMD_HELP, MessageType.text,{quoted: message.data}); 
        }
        else {
@@ -270,6 +274,8 @@ amazone.addCommand({pattern: `${Config.PANEL_COMMAND} ?(.*)`, fromMe: true, dont
                     }
                 }
             );
+            
+            await message.client.sendMessage(message.jid, lusifarv, MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
             await message.client.sendMessage(message.jid, Config.BOT_NAME + '\n\n  \n' + CMD_HELP, MessageType.text,{quoted: message.data}); 
        }
        else {
