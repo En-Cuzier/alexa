@@ -174,9 +174,9 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │► .covid  [ covid LK]
  ╰────────────●●►
 
- ╭───────────●●►
+ ╭────────────⚬►
  │ *BOT SETTINGS*
- │    ───────
+ │────────────⚬►
  │► .pp [set profilr pic]
  │►.autobio on/off [change bio ]
  │►.whatsblock on [WA link Block]
@@ -184,15 +184,34 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │►.work public /private
  │►.setrules
  │► .setvar
- │ ▷EMOJI_COMMAND:🛡️ [change Cmd emoj]
- │ ▷EMOJI_DESCRIPTION:  🔍 [change des emoj]
- │ ▷EMOJI_EXAMPLE:🔆 [change ex emoji]
- │ ▷EMOJI_WARNING:⚠️ [change war emoj]
- │ ▷BOT_NAME: <bot name> [change NAME]
- │ ▷BIO: <your Text> [change bio]
- │ ▷MENU_LOGO: <link> [change Logo]
- │ ▷CAPTION: <text> [change caption]
- │ ▷MENUINFO: <text> [change Menu info]
+ │
+ │ ▷EMOJI_COMMAND:
+ │ 🛡️ [change Cmd emoj]
+ │
+ │ ▷EMOJI_DESCRIPTION:
+ │ 🔍 [change des emoj]
+ │
+ │ ▷EMOJI_EXAMPLE:
+ │ 🔆 [change ex emoji]
+ │
+ │ ▷EMOJI_WARNING:
+ │ ⚠️ [change war emoj]
+ │
+ │ ▷BOT_NAME:
+ │ <bot name> [change NAME]
+ │
+ │ ▷BIO: 
+ │ <your Text> [change bio]
+ │
+ │ ▷MENU_LOGO:
+ │ <link> [change Logo]
+ │
+ │ ▷CAPTION: 
+ │ <text> [change caption]
+ │
+ │ ▷MENUINFO:
+ │  <text> [change Menu info]
+ │
  │ ▷SUDO: <number> [add sudo]
  │  
  ╰──────ᴘᴏᴡᴇʀᴇᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ
