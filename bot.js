@@ -270,7 +270,7 @@ setInterval(async () => {
 // =====================DEBUG=================
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Amazone')}${chalk.blue.bold('Alexa')}
+        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Alexa')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
