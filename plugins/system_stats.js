@@ -46,7 +46,7 @@ const Lang = Language.getString('system_stats');
 
  if (Config.WORKTYPE == 'public') {
 
-    Amazone.addCommand({pattern: 'alive', fromMe: false, dontAddCommandList:true}, (async (message, match) => {
+    Amazone.addCommand({pattern: 'xxx', fromMe: false, dontAddCommandList:true}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
             
