@@ -26,22 +26,19 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     var respoimage = await axios.get(`${Config.MENU_LOGO}`, { responseType: 'arraybuffer' })
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `        
 
- *╭─「 ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 」*
+ *╭─「 ʜᴇʏ ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ 」*
  *│*
- *│ᴛʏᴘᴇ: .`+Config.PANEL_COMMAND+` for command panel*
- *├──────────●►*
- *│🌼HEY,*  `+wish+`
+ *│ᴛʏᴘᴇ: .`+Config.PANEL_COMMAND+` *
+ *├──────────◉►*
+ *│🧝‍♀️HEY,*  `+wish+`
  *│👤Name:* `+Config.BOT_NAME+`
  *│💎Role:* Developer
  *│⏰Time:* `+time+`
  *│📡Server:* Digital Ocean
- *│📦Frameworks:* Nodejs
- *│👾Working As*
+ *│🕊Frameworks:* Nodejs
  *│🛡️ `+Config.WORKTYPE+`*
- *│ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ 2021*
- *╰───────────●►*
-
-
+ *│ 
+ *╰───────────◉►*
 
 *◄━━━━━━⦁⚬❲❄❳⚬⦁━━━━━━►*
 ⚜𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄⚜
@@ -50,10 +47,10 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 *▣ Hosted     ►* _Heroku cls_
 *▣ Branche    ►* _Hatzuhole main_
 *▣ Moders     ►* _Queen Alexa team_
-             ⛥ _*Mr.chaby*_
-             ⛥ _*Teenuh*_
-             ⛥ _*MashZ*_
-             ⛥ _*Torny Mark*_
+              ⛥ _*Mr.chaby*_
+              ⛥ _*Teenuh*_
+              ⛥ _*MashZ*_
+              ⛥ _*Torny Mark*_
 
    *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*
 *◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*
