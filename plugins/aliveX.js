@@ -26,34 +26,28 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     var respoimage = await axios.get(`${Config.MENU_LOGO}`, { responseType: 'arraybuffer' })
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `        
 
- *╭─「 ʜᴇʏ ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ 」*
- *│*
- *│ᴛʏᴘᴇ: .`+Config.PANEL_COMMAND+` *
- *├──────────◉►*
- *│🧝‍♀️HEY,*  `+wish+`
- *│👤Name:* `+Config.BOT_NAME+`
- *│💎Role:* Developer
- *│⏰Time:* `+time+`
- *│📡Server:* Digital Ocean
- *│🕊Frameworks:* Nodejs
- *│🛡️ `+Config.WORKTYPE+`*
- *│ 
- *╰───────────◉►*
+ *◄⚬━━❲ ʜᴇʏ ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ ❳━━⚬►*
 
-*◄━━━━━━⦁⚬❲❄❳⚬⦁━━━━━━►*
-⚜𝗛𝗲𝘆 𝗯𝘂𝗱𝘆 𝗶 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗻𝗼𝘄⚜
-
+ *🧝‍♀️HEY,*  `+wish+`
+ *👤Name:* `+Config.BOT_NAME+`
+ *💎Role:* Developer
+ *⏰Time:* `+time+`
+ *📡Server:* Digital Ocean
+ *🕊Frameworks:* Nodejs
+ *🛡️ `+Config.WORKTYPE+`*
+ 
 *▣ Developer  ►* _En cuzier_
 *▣ Hosted     ►* _Heroku cls_
 *▣ Branche    ►* _Hatzuhole main_
 *▣ Moders     ►* _Queen Alexa team_
-              ⛥ _*Mr.chaby*_
+
+              ⛥ _*Mr.chaby*_
               ⛥ _*Teenuh*_
               ⛥ _*MashZ*_
               ⛥ _*Torny Mark*_
 
-   *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*
-*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*
+  *ᴘᴏᴡᴇʀᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*
+*◄━━━━━━⦁⚬❲❄❳⚬⦁━━━━━━►*
  
 `}) 
 
