@@ -14,7 +14,7 @@ let am = Config.WORKTYPE == 'public' ? false : true
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
-    Amazone.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Amazone.addCommand({pattern: 'xxx', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
             
