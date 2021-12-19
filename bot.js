@@ -359,13 +359,13 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                     var TEENU = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            TEENU += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ◁' + commit.author_name + '▷\n';
+                            TEENU += '🛠 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ◁' + commit.author_name + '▷\n';
                         }
                     );
         
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```🛡️Type``` *.update now* ```for update.```\n\n' + TEENU + '```', MessageType.text
+                        '```🕊Type``` *.update now* ```for update.```\n\n' + TEENU + '```', MessageType.text
                     ); 
                 }
             }
@@ -639,7 +639,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG == 'true') return;
                             if (config.LANG == 'SI' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '*-- බොට් වාර්තාව [🛡️Queen-Amazone] --*' + 
+                                await conn.sendMessage(conn.user.jid, '*-- බොට් වාර්තාව [Queen-Alexa] --*' + 
                                     '\n*👩‍🦰Queen-Amazone නිසි ලෙස ක්‍රියා කරයි!*'+
                                     '\n_මෙය ඔබගේ LOG අංකයයි! _මෙහි විධාන භාවිතයෙන් වළකින්න_' +
                                     '\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතාබහක විධාන භාවිතා කරන්න._' +
@@ -658,7 +658,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [Queen-Alexa] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _SQL Database Error_' +
                                         '\n*🤖හේතුව:* _Database\'දෝශයකි._ ' +
