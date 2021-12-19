@@ -20,7 +20,7 @@ const QueenAmdi = require('queenamdi-public');
 const Amdi = QueenAmdi.events
 const Build = QueenAmdi.build
 const { ytaudio, ytvideo, ythd } = QueenAmdi.ytdl
-const {MessageType,Mimetype} = require('@blackamda/queenamdi-web-api');
+const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios')
 const Language = require('../language');
 const Lang = Language.getString('dl-video');
@@ -61,7 +61,7 @@ Amdi.operate({ pattern: 'qaytsong ?(.*)', fromMe: LOL,  deleteCommand: false, do
     await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage, {quoted: message.data});
 }))
 
-Amdi.operate({ pattern: 'qasongdoc ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+Amdi.operate({ pattern: 'yvideo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     const ytLink = match[1]
     const ytdata = await ytaudio(ytLink)
@@ -73,7 +73,7 @@ Amdi.operate({ pattern: 'qasongdoc ?(.*)', fromMe: LOL,  deleteCommand: false, d
     return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
 }))
 
-Amdi.operate({ pattern: 'qasongaudio ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+Amdi.operate({ pattern: 'yvideo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     const ytLink = match[1]
     const ytdata = await ytaudio(ytLink)
@@ -85,7 +85,7 @@ Amdi.operate({ pattern: 'qasongaudio ?(.*)', fromMe: LOL,  deleteCommand: false,
     return await message.client.deleteMessage(message.jid, {id: uploading.key.id, remoteJid: message.jid, fromMe: true})
 }))
 
-/*Amdi.operate({ pattern: 'qasongplay ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+/*Amdi.operate({ pattern: 'play ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
     await QueenAmdi.amdi_setup()
     const ytLink = match[1]
     const ytdata = await ytaudio(ytLink)
@@ -102,7 +102,7 @@ Amdi.operate({ pattern: 'qasongaudio ?(.*)', fromMe: LOL,  deleteCommand: false,
 var VIDYT = ''
 if (Build.LANG == 'EN') VIDYT = '╔═══════❪💃🏻♥️❫\n\n▷ *YouTube Video Downloader* ◁\n\n╚═════≪ •❈• ≫═════\nSelect video quality :'
 if (Build.LANG == 'SI') VIDYT = '╔═══════❪💃🏻♥️❫\n\n▷ *YouTube Video Downloader* ◁\n\n╚═════≪ •❈• ≫═════\nVideo quality තෝරන්න :'
-Amdi.operate({ pattern: 'qaytvideo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
+Amdi.operate({ pattern: 'yvideo ?(.*)', fromMe: LOL,  deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {
     const ytLink = match[1]
 
     var BUTTHANDLE = '';
@@ -118,7 +118,7 @@ Amdi.operate({ pattern: 'qaytvideo ?(.*)', fromMe: LOL,  deleteCommand: false, d
     ]
     const buttonMessage = {
         contentText: VIDYT,
-        footerText: 'ǫᴜᴇᴇɴ ᴀᴍᴅɪ © ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ',
+        footerText: '⦁═Queen 👸 Alexa═⦁',
         buttons: buttons,
         headerType: 1
     }
