@@ -49,7 +49,7 @@ Amazone.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Queen Alexa button comm
                       {title: ' 🗃️2019 3rd bracket Subjects Papers🗃️ ', description:   "《《=====●|:|🔅|:|●=====》》\n\n📘 *Subject* - _තොරතුරු හා සන්නිවේදන තාක්ශනය_\n🔹 *Command* - ```oict 2019```\n\n📘 *Subject* - _ගෘහ ආර්තික විද්‍යාව_\n🔹 *Command* - ```ohomec 2019``` \n\n📘 *Subject* - _සෞඛ්‍ය හා ශාරීරික අධ්‍යාපනය _\n🔹 *Command* - ```ohelth 2019```\n\n📘 *Subject* - _නිර්මාණ කරනය හා තාක්ශණය_\n🔹 *Command* - ```odisigntech 2019```\n\n📘 *Subject* - _සන්නිවේදනා හා මාද්‍ය අධ්‍යයනය_\n🔹 *Command* - ```omedia 2019```\n\n📘 *Subject* - _ශිල්ප කලා_\n🔹 *Command* - ```oarcraft 2019``` \n\n📘 *Subject* - _කෘශිකර්මය හා ආහාර තක්ශණය_\n🔹 *Command* - ```oagree 2019``` ", rowId: "rowid1"} ]
 
 
-                     const sections = [{ title: "🧝‍♀️ Media Command List", rows: rows15},
+                     const sections = [{ title: "🧝‍♀️ 𝗠𝗲𝗱𝗶𝗮 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗟𝗶𝘀𝘁", rows: rows15},
                                        { title: "2016 main subjects and brackert subjects", rows: rows16},
                                        { title: "2017 main subjects and brackert subjects", rows: rows17},
                                        { title: "2018 main subjects and brackert subjects", rows: rows18},
@@ -57,7 +57,7 @@ Amazone.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Queen Alexa button comm
 
         const button = {
             buttonText: '𝗠𝗘𝗡𝗨',
-            description: "╭────────═✪═────────╮\n  *◄◯ QUEEN ALEXA MENU ◯►*\n╰────────═✪═────────╯",
+            description: "*╭────────═✪═────────╮*\n  *◄◯ QUEEN ALEXA MENU ◯►*\n*╰────────═✪═────────╯*",
             sections: sections,
             listType: 1
         }
