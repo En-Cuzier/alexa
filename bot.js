@@ -900,8 +900,8 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇‍♂️Sorry, I Couldnt Read This Error!*' +
-                                        '\n```You can write to our support groups for more help...🛡️ https://t.me/Amazone_Neotrox_Support```'
+                                    return await conn.sendMessage(conn.user.jid, '╭ *⚕ǫᴜᴇᴇɴ ᴀʟᴇxᴀ ᴇʀʀᴏʀ⚕*\n│\n│⛔  ```please join us \n│and write your │problem```\n│⛔ _https://chat.whatsapp.com/L0TwTcLSN29HcjFY0sdUf9_\n│\n│' +
+                                        '\n╰ *ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ᴀʟᴇxᴀ*'
                                         , MessageType.text
                                     );
                                }
