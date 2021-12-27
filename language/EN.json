@@ -264,11 +264,11 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
+            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n*",
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "*🛡 Updating Your Bot 🛡*",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*🧝‍♀️Amazone Alexa Updated!*",
+            "UPDATED": "*🧝‍♀️ Queen Alexa Updated!*",
             "UPDATED_LOCAL": "*🥳 Queen Alexa Updated!*",
             "AFTER_UPDATE": "*🧝‍♀️ Queen Alexa Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
