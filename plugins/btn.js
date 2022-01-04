@@ -20,7 +20,7 @@ const os = require('os');
 
 let tk = Config.WORKTYPE == 'public' ? false: true
 
-Amazone.addCommand({ pattern: 'menu', fromMe: tk, desc: 'Queen Alexa button commands'
+Amazone.addCommand({ pattern: 'list', fromMe: tk, desc: 'Queen Alexa button commands'
 }, (async (message, match) => {
         // send a list menu
        const rows15 =[{title: ' 📘 Media Downloading Commands ', description:    "《《=====●|:|🔅|:|●=====》》\n\n📘 *Subject* - _සිංහල_\n🔹 *Command* - ```osin 2015```\n\n📘 *Subject* - _විද්‍යාව_\n🔹 *Command* - ```osci 2015```\n\n📘 *Subject* - _ගණිතය_\n🔹 *Command* - ```omaths 2015```\n\n📘 *Subject* - _ඉතිහාසය_\n🔹 *Command* - ```ohis 2015```\n\n📘 *Subject* - _ඉංග්‍රීසි_\n🔹 *Command* - ```oen 2015```\n\n📘 *Subject* - _බුද්ධ ධර්මය_\n🔹 *Command* - ```obu 2015``` ", rowId: "rowid1"},
