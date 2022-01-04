@@ -27,7 +27,7 @@ var ddd = ggg.toString('utf-8')
 let tk = Config.WORKTYPE == 'public' ? false: true
 
 Amazone.addCommand({
-    pattern: 'list', fromMe: tk, desc: Lang.MENU, dontAddCommandList: true
+    pattern: 'menu', fromMe: tk, desc: Lang.MENU, dontAddCommandList: true
 }, (async (message, match) => {
         // send a list message!
         const rows = [{
@@ -85,7 +85,7 @@ Amazone.addCommand({
 if (Config.WORKTYPE == 'public') {
 
     Amazone.addCommand({
-        pattern: 'list', fromMe: true, dontAddCommandList: true
+        pattern: 'menu', fromMe: true, dontAddCommandList: true
     }, (async (message, match) => {
             // send a list message!
             const rows = [{
