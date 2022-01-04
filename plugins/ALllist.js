@@ -73,7 +73,7 @@ Amazone.addCommand({
 
         const button = {
             buttonText: '𝗠𝗘𝗡𝗨',
-            description: "*🧝‍♀️ QUEEN ALEXA Command List*",
+            description: "*╭────────═✪═────────╮*\n  *◄◯ QUEEN ALEXA MENU ◯►*\n*╰────────═✪═────────╯*",
             sections: sections,
             listType: 1
         }
@@ -130,7 +130,7 @@ if (Config.WORKTYPE == 'public') {
 
             const button = {
                 buttonText: '𝗠𝗘𝗡𝗨',
-                description: "*🧝‍♀️ QUEEN ALEXA Menu List*",
+                description: "*╭────────═✪═────────╮*\n  *◄◯ QUEEN ALEXA MENU ◯►*\n*╰────────═✪═────────╯*",
                 sections: sections,
                 listType: 1
             }
