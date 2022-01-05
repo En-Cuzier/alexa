@@ -14,10 +14,13 @@ if (Config.LANG == 'EN') {
             var image = await axios.get (Config.MENU_LOGO, {responseType: 'arraybuffer'})
        
         await message.sendMessage (Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `*⊰᯽⊱┈──╌❊  ❊╌──┈⊰᯽⊱*
- *═▣══❖⦁⦁⦁👽⦁⦁⦁❖══▣═*
-*🚀Neotro-x BASIC Help*
+*◄━━━━━━⦁═▣❪🧝‍♀️❫▣═⦁━━━━━━►*
+   *◄●◈QUEEN ALEXA◈●►*
+*◄━━━━━━━⦁═⦁❶⦁═⦁━━━━━━━━►*
 
- Nootro-x Bot If you are using (Public) mode then you are only running admin commands.
+
+
+ Queen Alexa Bot If you are using (Public) mode then you are only running admin commands.
 But for others, all the commands except the admin commands are active ...
 
 Use (.Admin) to get the admin command list
