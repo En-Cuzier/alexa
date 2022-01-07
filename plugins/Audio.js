@@ -17,7 +17,7 @@ const YT_NEED = "🌀 *Enter Youtube URL* \nExample:-\n _.audio https://www.yout
 const DWLOAD_AUD = "*🎭 Downloading Your Audio...*"
 const YTV_UP = "*🚀 Uploading Your Audio...*"
 const NO_RESULT = "🌀 *Can't Find Anything...*"
-let tk = Config.WORKTYPE == 'public' ? false: true
+let tk = Config.WORKTYPE == 'private' ? false: true
 let tn = Config.WORKTYPE == 'public' ? false: true
 
     amazone.addCommand({ pattern: 'audio ?(.*)', fromMe: tk, desc: YTV_DESC,  deleteCommand: false}, async (message, match) => {
