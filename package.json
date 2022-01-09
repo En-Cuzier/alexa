@@ -1,14 +1,14 @@
 {
-  "name": "Amazone",
+  "name": "⦁═Queen 👸 Alexa═⦁",
   "version": "8.1.0",
-  "description": "❤️Amazone is a POWERFULL Whatsapp userbot helping to improve your Whatsapp experience.",
+  "description": "QUEEN ALEXA is a POWERFULL Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./ales/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xneon2/Hashzi-X.git"
+    "url": "git+https://github.com/En-Cuzier/alexa.git"
   },
   "keywords": [
     "whatsapp",
@@ -18,12 +18,12 @@
     "WhatsAsena"
   ],
   "author": "NeotroDev / TeenuhX",
-  "developer": "NeotroDev / @Teenuh",
+  "developer": "NeotroDev / @En-Cuzier",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/xneon2/Hashzi-X/issues"
+    "url": "https://github.com/En-Cuzier/alexa/issues"
   },
-  "homepage": "https://github.com/xneon2/Hashzi-X#readme",
+  "homepage": "https://github.com/En-Cuzier/alexa#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
