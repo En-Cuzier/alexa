@@ -110,7 +110,7 @@ Author: Developer, Base, Bug Fixes, Commits, Modules | Contributor: Bug Fixes ( 
 
 ## ✨ Special Features ✨
 
-- [x] Alexa Voice Chatbot [ This is not amazon alexa ]
+- [x] Alexa Voice Chatbot [ This is modified version amazon alexa ]
 
 - [x] simi simi chatbot
 
