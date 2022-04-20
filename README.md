@@ -6,6 +6,7 @@
    **⦁◊═⦁QUEEN 🧝‍♀️ ALEXA⦁═◊⦁**
 - **Queen Alexa** is a Helper WhatsApp Bot Written with **[Baileys](https://github.com/adiwajshing/baileys)** Which is hosted on **[Heroku Cloud Server](https://heroku.com).** Also Alexa has a **Lot of Commands/Features,** Including **Artificial Intelligence [ AI ] Features/Commands.**
 
+ Wait for it
 
 <p align="center">
     <a href="https://github.com/En-Cuzier">
